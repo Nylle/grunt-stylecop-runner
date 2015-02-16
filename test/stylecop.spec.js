@@ -10,6 +10,6 @@ describe('stylecop', function() {
 
   it('is called normally', function() {
     var result = stylecop.examine(shell, {include: 'path/to/folder', path: 's'});
-    expect(shell.exec.calledWith('s -p "path/to/folder"')).to.be(true);
+    expect(shell.exec.calledWith('s', ['-p', '"path/to/folder"'])).to.be(true);
   });
 });

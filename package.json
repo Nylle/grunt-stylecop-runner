@@ -1,9 +1,6 @@
 {
   "name": "grunt-stylecop-runner",
   "version": "0.0.1",
-  "dependencies": {
-    "shelljs": "~0.3.0"
-  },
   "devDependencies": {
     "expect.js": "^0.3.1",
     "grunt": "^0.4.5",
