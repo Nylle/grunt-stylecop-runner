@@ -1,3 +1,6 @@
+[![Build Status](https://api.travis-ci.org/nylle/grunt-stylecop-runner.png)](https://travis-ci.org/nylle/grunt-stylecop-runner)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
 # grunt-stylecop-runner
 
 ## Getting started
