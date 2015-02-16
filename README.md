@@ -28,7 +28,7 @@ stylecop: {
   },
   server: {
     options: {
-      include: '../server'
+      include: 'path-to-your-cs-files'
     }
   }
 }
