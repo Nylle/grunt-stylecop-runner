@@ -1,7 +1,5 @@
 var shell = require('shelljs');
 
-//.\\bin\\stylecop\\StyleCop.Console.exe
-
 module.exports = function (grunt) {
 
   function run_stylecop(options) {
