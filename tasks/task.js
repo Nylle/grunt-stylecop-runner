@@ -10,10 +10,6 @@ module.exports = function (grunt) {
     };  
   }
 
-  grunt.registerTask('stylecop', function() {
-    run_stylecop('..\\server');
-  });
-
   grunt.registerMultiTask('stylecop', 'Runs static code analysis with StyleCop.', function() {
     var options = this.options({});
     run_stylecop(options);
