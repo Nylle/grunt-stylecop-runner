@@ -14,6 +14,10 @@ grunt.loadNpmTasks('grunt-stylecop-runner');
 
 ## Configuration
 
+You'll find the StyleCop.Console application here: https://github.com/Nylle/StyleCop.Console
+
+Add this to your Grunt configuration:
+
 ```js
 stylecop: {
   options: {
