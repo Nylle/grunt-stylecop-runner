@@ -1,16 +1,13 @@
-var shell = require('shelljs');
+var shell = require('./shell'),
+    styleCop = require('./stylecop');
 
 module.exports = function (grunt) {
 
-  function run_stylecop(options) {
-    if(shell.exec(options.path + ' -p "'+ options.include +'"') !== 0) {
-      grunt.fail.warn('');
-    };  
-  }
-
   grunt.registerMultiTask('stylecop', 'Runs static code analysis with StyleCop.', function() {
     var options = this.options({});
-    run_stylecop(options);
+    if(stylecop.examine(shell, options) !== 0) {
+      grunt.fail.warn('');
+    }
   });
 
 };
