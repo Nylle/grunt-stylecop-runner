@@ -2,7 +2,8 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 [![NPM version](https://badge.fury.io/js/grunt-stylecop-runner.svg)](http://badge.fury.io/js/grunt-stylecop-runner)  
 [![Dependency Status](https://david-dm.org/Nylle/grunt-stylecop-runner.svg)](https://david-dm.org/Nylle/grunt-stylecop-runner)
-[![devDependency Status](https://david-dm.org/Nylle/grunt-stylecop-runner/dev-status.svg)](https://david-dm.org/Nylle/grunt-stylecop-runner#info=devDependencies)
+[![devDependency Status](https://david-dm.org/Nylle/grunt-stylecop-runner/dev-status.svg)](https://david-dm.org/Nylle/grunt-stylecop-runner#info=devDependencies)  
+[![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com)
 
 # grunt-stylecop-runner
 
