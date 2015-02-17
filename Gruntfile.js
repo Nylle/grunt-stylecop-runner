@@ -9,12 +9,16 @@ module.exports = function(grunt) {
         options: { reporter: 'spec' },
         src: files
       }
+    },
+    release: {
+      options: { commitMessage: 'NPM Release v<%= version %>' }
     }
   });
 
   grunt.loadTasks('tasks');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-mocha-test');
+  grunt.loadNpmTasks('grunt-release');
 
   grunt.registerTask('default', [ 'jshint', 'mochaTest' ]);
 }
