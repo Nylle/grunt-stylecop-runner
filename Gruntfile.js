@@ -3,7 +3,12 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    jshint: { files: files },
+    jshint: { 
+      files: files, 
+      options: {
+        quotmark: 'single'
+      }
+    },
     mochaTest: {
       test: {
         options: { reporter: 'spec' },
