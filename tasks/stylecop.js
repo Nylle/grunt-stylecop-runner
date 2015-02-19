@@ -1,7 +1,7 @@
 exports.examine = function(shell, options, done) {
   var args = ['-p', '"' + options.include + '"'];
 
-  if (options.settings !== "" && options.settings !== undefined) {
+  if (options.settings && options.settings !== '') {
     args.push('-s');
     args.push('"' + options.settings + '"');
   }
