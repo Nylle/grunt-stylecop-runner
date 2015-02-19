@@ -32,7 +32,8 @@ stylecop: {
   },
   server: {
     options: {
-      include: 'path-to-your-cs-files'
+      include: 'path-to-your-cs-files',
+      settings: 'path-to-your-Settings.StyleCop-file'
     }
   }
 }
