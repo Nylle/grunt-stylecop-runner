@@ -1,10 +1,10 @@
 exports.examine = function(shell, options, done) {
-  var arguments = ['-p', '"' + options.include + '"'];
+  var args = ['-p', '"' + options.include + '"'];
 
-  if(options.settings !== "") {
-    arguments[arguments.length] = '-s';
-    arguments[arguments.length] = options.settings;
+  if (options.settings !== "" && options.settings !== undefined) {
+    args.push('-s');
+    args.push('"' + options.settings + '"');
   }
 
-  return shell.exec(options.path, arguments, done);
+  return shell.exec(options.path, args, done);
 };
