@@ -1,6 +1,6 @@
 {
   "name": "grunt-stylecop-runner",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Grunt plugin for running StyleCop static code analysis for C# code",
   "homepage": "https://github.com/Nylle/grunt-stylecop-runner",
   "main": "tasks/task.js",
